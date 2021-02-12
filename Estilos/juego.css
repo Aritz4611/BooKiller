@@ -1,0 +1,384 @@
+body{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	overflow-x: hidden;
+	font-family: "Poppins", sans-serif;
+}
+
+#TituloJuego{
+	margin: 90px 0 30px 0;
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	font-size: 32px;
+	color: rgb(97, 98, 185);
+}
+
+#Comienzo{
+	padding: 20px;
+	color: orange;
+	background-color: white;
+}
+
+#fondo{
+	background-color: inherit;
+	width: 100%;
+	height: 100%;
+}
+
+#juego{
+	margin-left: -10px;
+	display:flex;
+	background-color: #1E93D6;
+	border: 5px solid black;
+	border-radius: black;
+	width:102%;
+	height:700px;
+	display: none;
+	cursor: url("img/Mira.png") 16 16, auto;
+}
+#menu{
+	margin:auto;
+	display: flex;
+	border: 4px solid black;
+	background-color: #630;
+	width:85%;
+	height: 100px;
+	display:none;
+}
+
+#menu p{
+	background-color: #630;
+	margin-top: -4px;
+	font-size: 20px;
+	color: white;
+}
+
+#espera{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 4px solid black;
+	border-radius: 5px;
+	margin:auto;
+	width: 90%;
+	height: 800px;
+	background-color: black;
+}
+
+#modoNormal{
+	margin-left: 110px;
+	position:absolute;
+	padding: 20px;
+	color:orange;
+	background-color: #630;
+}
+
+#modoHard{
+	margin-left: -110px;
+	position:absolute;
+	padding: 20px;
+	color:orange;
+	background-color: #630;
+}
+#modoFancy{
+	margin-left: -20px;
+	margin-top: 135px;
+	position:absolute;
+	background-color: #630;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+#modoFancy img{
+	width: 110px;
+	height: 60px;
+}
+
+#mute{
+	margin-top: 700px;
+	position:absolute;
+	background-color: #630;
+	width: 70px;
+	height: 70px;
+}
+
+#mute img{
+	width: 50px;
+	height: 50px;
+}
+
+#seleccion{
+	position: absolute;
+	margin-bottom: 300px;
+	font-size: 50px;
+	color: orange;
+}
+
+#cuenta{
+	position: absolute;
+	margin:auto;
+	font-size: 150px;
+	color: orange;
+}
+
+#final{
+	text-align: center;
+	display: flex;
+	align-items: center;
+	border: 4px solid black;
+	border-radius: 5px;
+	margin:auto;
+	width: 90%;
+	height: 800px;
+	background-color: black;
+	display: none;
+	font-size: 120px;
+	color:orange;
+}
+
+#falloFinal{
+	font-size: 85px;
+	color:orange;
+	margin:auto;
+}
+
+#puntuacionFinal{
+	font-size: 90px;
+	color:orange;
+	margin:auto;
+}
+
+#reloj{
+	color: orange;
+	font-size: 60px;
+	position: absolute;
+	margin-left: 80%;
+	margin-top: 1%;
+}
+
+.pato{
+	margin-left:-100px;
+	width: 80px;
+	height: 60px;
+	position: absolute;
+	animation-direction: normal;
+	animation-duration: 6s;
+}
+
+#pato1{
+	animation-name: pato1;
+	display: none;
+}
+#pato2{
+	animation-name: pato2;
+	display: none;
+}
+#pato3{
+	animation-name: pato3;
+	display: none;
+}
+#pato4{
+	animation-name: pato4;
+	display: none;
+}
+#pato5{
+	animation-name: pato5;
+	display: none;
+}
+#pato6{
+	animation-name: pato6;
+	display: none;
+}
+#pato7{
+	animation-name: pato7;
+	display: none;
+}
+#pato8{
+	animation-name: pato8;
+	display: none;
+}
+#pato9{
+	animation-name: pato9;
+	display: none;
+}
+#pato10{
+	animation-name: pato10;
+	display: none;
+}
+#pato11{
+	animation-name: pato11;
+	display: none;
+}
+#pato12{
+	animation-name: pato12;
+	display: none;
+}
+#pato13{
+	animation-name: pato13;
+	display: none;
+}
+#pato14{
+	animation-name: pato14;
+	display: none;
+	animation-duration: 6s;
+}
+#pato15{
+	animation-name: pato15;
+	display: none;
+	animation-duration: 6s;
+}
+
+@keyframes pato1{
+	from{
+		margin-left: -50px;
+		margin-top: 400px;
+	}
+	to{
+		margin-top: 45px;
+		margin-left: 105%;
+
+	}
+}
+@keyframes pato2{
+	from{
+		margin-left: -50px;
+		margin-top: 90px;
+	}
+	to{
+		margin-top: 250px;
+		margin-left: 105%;
+	}
+}
+@keyframes pato3{
+	from{
+		margin-left: -50px;
+		margin-top: 150px;
+	}
+	to{
+		margin-top: 0px;
+		margin-left: 105%;
+	}
+}
+@keyframes pato4{
+	from{
+		margin-left: -50px;
+		margin-top: 300px;
+	}
+	to{
+		margin-top: 330px;
+		margin-left: 105%;
+	}
+}
+@keyframes pato5{
+	from{
+		margin-left: -50px;
+		margin-top: 10px;
+	}
+	to{
+		margin-top: 600px;
+		margin-left: 120%;
+	}
+}
+@keyframes pato6{
+	from{
+		margin-left: 105%;
+		margin-top: 700px;
+	}
+	to{
+		margin-top: 45px;
+		margin-left: -109px;
+	}
+}
+@keyframes pato7{
+	from{
+		margin-left: 105%;
+		margin-top: 150px;
+	}
+	to{
+		margin-top: 492px;
+		margin-left: -150px;
+	}
+}
+@keyframes pato8{
+	from{
+		margin-left: 105%;
+		margin-top: 63px;
+	}
+	to{
+		margin-top: 358px;
+		margin-left: -105px;
+	}
+}
+@keyframes pato9{
+	from{
+		margin-left: 105%;
+		margin-top: 6px;
+	}
+	to{
+		margin-top: 600px;
+		margin-left: -85px;
+	}
+}
+@keyframes pato10{
+	from{
+		margin-left: -90px;
+		margin-top: 55px;
+	}
+	to{
+		margin-top: 364px;
+		margin-left: 160%;
+	}
+}
+@keyframes pato11{
+	from{
+		margin-left: 110%;
+		margin-top: 254px;
+	}
+	to{
+		margin-top: 130px;
+		margin-left: -130px;
+	}
+}
+@keyframes pato12{
+	from{
+		margin-left: -200px;
+		margin-top: 354px;
+	}
+	to{
+		margin-top: 10px;
+		margin-left: 120%;
+	}
+}
+@keyframes pato13{
+	from{
+		margin-left: 110%;
+		margin-top: 361px;
+	}
+	to{
+		margin-top: 154px;
+		margin-left: -130px;
+	}
+}
+@keyframes pato14{
+	from{
+		margin-left: -50;
+		margin-top: 480px;
+	}
+	to{
+		margin-top: 400px;
+		margin-left: 150%;
+	}
+}
+@keyframes pato15{
+	from{
+		margin-left: 110%;
+		margin-top: 220px;
+	}
+	to{
+		margin-top: 200px;
+		margin-left: -130px;
+	}
+}
+
+

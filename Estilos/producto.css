@@ -1,0 +1,143 @@
+.info{
+	margin:4vh;
+	max-width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#imglibro img{
+	max-width: 100%;
+}
+
+#texto{
+	margin-left: 15vh;
+}
+
+#texto li{
+	font-family: calibri;
+	padding-top: 5vh;
+	font-size:2.8vh;
+}
+
+#michica{
+	width:50%;  
+}
+
+#inercia{
+	width:60%; 
+}
+
+#mallorca{
+	width:70%;
+}
+
+#abyss{
+	width:30%; 
+}
+
+#th{
+	width:60%; 
+}
+
+#naruto{
+	width:35%; 
+}
+
+#ball{
+	width:35%;
+}
+
+#one{
+	width:30%; 
+}
+
+#nombrelibro{
+	padding-bottom:6vh;
+	text-transform:uppercase;  
+	font-size:6vh;
+	font-family: "Poppins", sans-serif;
+}
+
+#mostrar {
+	border: 2px solid white;
+  	background: #222;
+  	color:white;
+  	padding: 2.5vh 2vh; 
+ 	text-align: center;
+ 	text-decoration: none;
+  	font-size: 16px;
+  	margin:2.5vh 4vh;
+  	cursor: pointer;
+}
+#mostrar:hover{
+	border: 2px solid black;
+  	background: white;
+  	color:black;
+  	padding: 2.5vh 2vh; 
+  	text-align: center;
+ 	text-decoration: none;
+ 	font-size: 16px;
+  	margin:2.5vh 4vh;
+  	cursor: pointer;
+}
+#sinopsis{
+	font-family: calibri;
+	display:none;
+	text-align: justify;
+	margin:3vh;
+	font-size: 2.8vh;
+	max-width: 100%;
+}
+#mitologia1{
+	width:60%;
+}
+#mitologia2{
+	width:60%;
+}
+#mitologia3{
+	width:70%;
+}
+#mitologia4{
+	width:66%;
+}
+#cuento1{
+	width:60%;
+}
+#cuento2{
+	width:68%;
+}
+#cuento3{
+	width:68%;
+}
+#cuento4{
+	width:60%;
+}
+#cuento5{
+	width:60%;
+}
+#cuento6{
+	width:60%;
+}
+@media screen and (max-width: 768px) {
+	button{
+		margin-left:35%;
+	}
+
+	button:hover{
+		margin-left:35%;
+	}
+
+	h2{
+		text-align: center;
+	}
+	.info{
+		flex-wrap:wrap;
+	}
+	#imglibro{
+		margin:auto;
+	}
+	#texto{
+		margin:auto;
+	}
+}

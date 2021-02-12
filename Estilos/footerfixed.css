@@ -1,0 +1,41 @@
+footer{
+/*position:relative; Para que aparezca al llegar al final de la pagina*/ 
+/*position:fixed; Para que aparezca todo el rato*/ 
+  bottom: 0;
+  position:fixed;
+  width:100%;
+
+}
+footer section{
+  background-color:#222;
+  height: 20%;
+  overflow: hidden;
+  width: 100%;
+}
+
+footer section p{
+  color:white;
+  float:right; 
+  padding:1% 1% 0 0;
+  text-align:right;
+  vertical-align:text-bottom;
+}
+
+footer section a{
+  border:0px;
+  display:inline-block;
+  margin:5px;
+  padding:5px;
+}
+
+footer section a img{
+  float:left;
+  height:30px; 
+}
+
+#copyright{
+  color:white;
+  padding:1% 28% 0 0;
+  text-align:center; 
+  vertical-align:text-bottom;
+}

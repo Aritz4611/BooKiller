@@ -1,0 +1,131 @@
+footer{
+/*position:relative; Para que aparezca al llegar al final de la pagina*/ 
+/*position:fixed; Para que aparezca todo el rato*/ 
+  position:relative;
+  bottom: 0;
+  display:flex;
+  background-color:#222;
+  width:100%;
+  align-items:center;
+  justify-content:space-between; 
+  flex-direction: column;  
+}
+
+#info{
+  position:relative;
+  bottom: 0;
+  display:flex;
+  background-color:#222;
+  width:100%;
+  align-items:center;
+  justify-content:space-between;
+  border-bottom: 4px solid rgba(128, 128, 128, 0.5);  
+}
+
+#ubicacion{
+  font-family: "Poppins", sans-serif;
+  margin-top:4vh;
+  margin-bottom:2vh; 
+  font-size:4vh;
+  color: white; 
+  text-align:center;
+}
+
+#mapa{
+  margin-top: -15px;
+}
+
+#extra{
+  margin:4vh;
+  display:inline-flex;
+  justify-content:space-around;
+}
+
+#faq{
+  width:46%; 
+}
+
+#contacto{
+  flex-direction:column;
+  text-align:justify;
+  width:46%; 
+}
+
+#pregunta{
+  font-family: "Poppins", sans-serif;
+  margin-top:1.5vh; 
+  font-size:2.6vh;
+  color:white;
+}
+
+#respuesta{
+  font-family:calibri;
+  font-style:italic;
+  margin-left:3.5vh;
+  color:white;
+  list-style:none;
+}
+
+#contacto-interior{
+  margin-top:2.5vh; 
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+
+#contacto-interior img{
+  max-width:100%;
+}
+
+#titulofotter{
+  padding-bottom:6vh;
+  font-size:6vh;
+  font-family: "Poppins", sans-serif;
+}
+
+footer .w3c{
+  margin-right:9vh;
+}
+
+footer .w3c img{
+  width:16vh;
+  height:6vh;  
+}
+
+footer .redes{
+  z-index:0;
+  max-width:25%;
+}
+
+footer .redes img{
+  width:4vh;
+  height:4vh; 
+}
+
+footer .redes img:hover{
+  
+}
+
+footer p{
+  color:white;
+  font-family: "Poppins", sans-serif;
+  font-size:2.5vh; 
+}
+
+@media screen and (max-width: 768px) {
+
+  footer .w3c img{
+    width:8vh;
+    height:3vh;  
+  }
+
+  footer .redes img{
+    width:3vh;
+    height:3vh; 
+  }
+
+  #contacto-interior img{
+    width:32px;
+    height:32px;
+  }
+} 

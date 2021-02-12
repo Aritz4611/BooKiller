@@ -1,0 +1,115 @@
+.seccionesmanga{
+	margin:auto;
+	width:50%; 
+}
+
+.generos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    margin:2vh; 
+}
+
+.generos li{
+	list-style: none;
+	text-align:center;
+	background-color:#222;
+	border:solid 3px white;
+	margin-top:2vh;
+	padding: 2vh;
+	font-family: "Poppins", sans-serif; 
+}
+
+.generos a{
+	color:white;
+	text-decoration:none;
+	padding:2vh;
+}
+
+.novela{
+	margin:2vh;
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+}
+.poesia{
+	margin:50px;
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+}
+h1{
+	font-family:calibri;
+	font-size: 3vh;
+	margin:2vh;
+	margin-top:8vh;
+	border-bottom: 3px solid black;
+}
+h2{
+	font-size: 20px;
+	margin:1%;
+	border-bottom: 2px solid black;
+}
+h3{
+	font-size: 20px;
+	margin:1%;
+	border-bottom: 2px solid black;
+}
+p{
+	font-size: 18px;
+	text-align: center;
+}
+.cuento{
+	margin:50px;
+	justify-content: space-around;
+	display: flex;
+	flex-wrap: wrap;
+}
+.novela div img{
+	width:150px; height:200px;
+}
+.poesia div img{
+	width:150px; height:200px;
+}
+.cuento div img{
+	width:150px; height:200px;
+}
+
+.flip-box {
+	margin: 4vh;
+  	width: 150px;
+  	height: 200px;
+  	perspective: 1000px; /* le da efecto 3D a la rotacion*/
+}
+
+.flip-box-inner {
+  	position: relative;
+  	width: 100%;
+  	height: 100%;
+  	text-align: center;
+  	transition: transform 0.8s;
+  	transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  	transform: rotateY(180deg);
+}
+
+.flip-box-front,.flip-box-back {
+  	position: absolute;
+  	width: 100%;
+  	height: 100%;
+}
+
+.flip-box-back {
+	font-family: "Poppins", sans-serif; 
+  	background-color: #13315c;
+ 	color: white;
+  	transform: rotateY(180deg);
+}
+
+.btn {
+  width: 120px;
+  height: 50px;
+}
+

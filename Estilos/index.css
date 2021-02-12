@@ -1,0 +1,68 @@
+.superior{
+	margin:4vh 0;
+	display:flex;
+	border: solid 2px black;
+}
+.intro p{
+	font-size: 3vh;
+	text-align: justify;
+	margin: 2%;
+}
+.intro2 p{
+	font-size: 3vh;
+	text-align: justify;
+	margin: 2%;
+}
+#bookiller{
+	font-family: sans-serif;
+	font-size: 4vh;
+}
+
+.texto{
+	border: solid 2px black;
+}
+
+.publicidad{
+	border: solid 2px black;	
+}
+#contenido{
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+}
+#contenido2{
+	border:4px dashed black;
+	padding:2%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+#contenido2 p{
+	background-color: black;
+	padding: 1%;
+	color:white;
+	font-size: 4vh;
+}
+#contenido2 .libro{
+	width: 35%;
+	height: 70%;
+}
+@media screen and (max-width: 768px){
+	#contenido2 .libro{
+		display:none;		
+	}
+}
+@media screen and (max-width: 768px){
+	#intro2 img{
+		display:none;		
+	}
+}
+@media screen and (max-width: 768px){
+	.anuncio{
+		display:none;		
+	}
+}
+@media screen and (max-width: 768px){
+	.publicidad{
+		display:none;		
+	}
+}

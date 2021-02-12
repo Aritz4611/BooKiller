@@ -1,0 +1,73 @@
+
+.contcarrusel{
+  background-color: rgba(40, 52, 123, 0.43);
+  margin: auto;
+  margin-top: 40px;
+  border-radius: 5px;
+  width: 360px; 
+  height: 600px;
+  padding: 30px;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ul.slider{
+  position: relative;
+  width: 100px;
+  height: 300px;
+}
+
+ul.slider li {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    width: inherit;
+    height: inherit;
+    transition: opacity .5s;
+}
+
+ul.slider li img{
+  z-index: 2;
+  border-radius: 5px;
+  width: 300px;
+  height: 450px;
+  object-fit: cover;
+}
+
+/*PARA MOSTRAR EL PRIMER LI*/
+ul.slider li:first-child {
+    opacity: 1; 
+}
+/*PARA MOSTRAR EL LI QUE PULSEMOS*/
+ul.slider li:target {
+    opacity: 1; 
+}
+
+/* BOTONES */
+.menu{
+  text-align: center;
+  margin-left: -10px;
+  margin-top: 180px;
+}
+
+.menu li{
+  display: inline-flex;
+}
+
+.menu li a{
+  text-align: center;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: rgba(53, 157, 243, 0.92);
+  padding: 18px;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  border-radius: 100%;
+}
